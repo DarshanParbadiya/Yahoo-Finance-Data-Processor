@@ -19,7 +19,8 @@ This project processes financial data from a CSV file, fetches current and histo
 ```plaintext
 src/
 ├── config/
-│   ├── settings.py        # Configuration for file paths and other constants
+│   ├── settings.py        # Configuration for file paths and other |||||||├── utils/ 
+│   ├── constants
 ├── services/
 │   ├── file_handler.py    # Handles file operations (reading, writing)
 │   ├── ticker_processor.py # Processes tickers and data cleaning
